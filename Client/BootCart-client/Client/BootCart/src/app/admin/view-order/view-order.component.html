@@ -1,0 +1,22 @@
+<div>
+    <table class="table" id="customers">
+        <tr>
+            <th>Customer Id</th>
+            <th>Order ItemId</th>
+            <th>Orderd Date</th>
+            <th>Delivery Date</th>
+            <th>Address</th>
+            <th>Total Amount </th>
+            <th>Status</th>
+        </tr>
+        <tr *ngFor="let order of orders">
+            <td>{{order.customerId}}</td>
+            <td>{{order.orderItemId}}</td>
+            <td>{{order.orderdDate}}</td>
+            <td>{{order.deliveryDate}}</td>
+            <td>{{order.address}}</td>
+            <td>{{order.totalAmount}}</td>
+            <td>{{order.status}}</td>
+        </tr>
+    </table>
+</div>

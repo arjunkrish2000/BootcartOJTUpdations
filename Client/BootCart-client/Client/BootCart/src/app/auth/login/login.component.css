@@ -1,0 +1,23 @@
+
+.img1{
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+
+.box{
+    margin-top: 80px;
+   border-radius: 5px;
+    width: 520px;
+    height: 350px;
+  
+    background-color: rgb(176, 230, 242);
+   
+   
+  margin-left: 110px;
+  margin-bottom: 10px;
+  border: 1px ;
+  padding: 10px;
+  box-shadow: 2px 3px 5px #888888;
+}
+

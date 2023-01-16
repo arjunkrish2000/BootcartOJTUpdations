@@ -1,0 +1,11 @@
+<div class="admin">
+    <a class="btn btn-info col-sm-2" (click)="Select(1)">View Customers</a>
+    <a class="btn btn-info col-sm-2" (click)="Select(2)">View Orders</a>
+    <a class="btn btn-info col-sm-2" (click)="Select(3)">View Product Masters</a>
+    <a class="btn btn-info col-sm-2"(click)="Select(4)">View Products</a>
+</div>
+<br>
+<app-view-customers *ngIf="id==1"></app-view-customers>
+<app-view-order *ngIf="id==2"></app-view-order>
+<app-view-product-masters *ngIf="id==3"></app-view-product-masters>
+<app-view-products *ngIf="id==4"></app-view-products>

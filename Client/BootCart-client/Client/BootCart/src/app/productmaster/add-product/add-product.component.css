@@ -1,0 +1,39 @@
+.container{
+    margin-top: 50px;
+}
+
+.box{
+    margin-top: 50px;
+   border-radius: 5px;
+    width: 420px;
+    height: 460px;
+background-color: rgb(176, 230, 242);
+  margin-left: 140px;
+  margin-bottom: 100px;
+  border: 1px ;
+  padding: 10px;
+  box-shadow: 2px 3px 5px #888888;
+}
+
+select {
+ 
+
+
+
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+}
+
+.type{
+  margin-top: 4px;
+  margin-right: 10px;
+}
+.btn1{
+  margin-left: 130px;
+}

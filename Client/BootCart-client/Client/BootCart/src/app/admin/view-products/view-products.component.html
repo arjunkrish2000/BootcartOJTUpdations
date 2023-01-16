@@ -1,0 +1,39 @@
+<div>
+
+    <table class="table" id="customers">
+
+        <tr>
+
+            <th>Id</th>
+
+            <th>Product Type</th>
+
+            <th>Product Category</th>
+
+            <th>Quantity</th>
+
+            <th>Price</th>
+
+            <th>Product Image</th>
+
+            <th>Added Date</th>
+
+            <th>ApplicationUser Id</th>
+
+        </tr>
+
+        <tr *ngFor="let products of product">
+
+            <td>{{products.id}}</td>
+            <td>{{products.productType}}</td>
+            <td>{{products.productCategory}}</td>
+            <td>{{products.quantity}}</td>
+            <td>{{products.price}}</td>
+            <td>{{products.productImage}}</td>
+            <td>{{products.addedDate}}</td>
+            <td>{{products.applicationUserId}}</td>
+        </tr>
+
+    </table>
+
+</div>

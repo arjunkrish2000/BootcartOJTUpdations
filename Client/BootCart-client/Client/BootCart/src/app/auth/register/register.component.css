@@ -1,0 +1,27 @@
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+
+    .box{
+        margin-top: 80px;
+       border-radius: 5px;
+        width: 520px;
+        height: 700px;
+   background-color: rgb(176, 230, 242);
+      margin-left: 350px;
+      margin-bottom: 150px;
+      border: 1px ;
+      padding: 10px;
+      box-shadow: 2px 3px 5px #888888;
+    }
+   
+    .img1{
+        margin-top: 80px;
+       
+    }

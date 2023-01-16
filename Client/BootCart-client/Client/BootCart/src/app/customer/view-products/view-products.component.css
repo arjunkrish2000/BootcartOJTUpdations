@@ -1,0 +1,32 @@
+.card{
+    margin-left: 40px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 8px;
+    background-color: aliceblue;
+
+}
+.btn{
+    width:155px;
+}
+
+.row
+{
+    width:  100%;
+}
+img{
+    margin-top: 10px;
+}
+.bi{
+    
+    margin-left: 165px;
+    margin-top: 10px;
+    color: rgb(234, 67, 104);
+}
+.hide {
+    display: none;
+  }
+  
+  .bi:hover + .hide {
+    display: block;
+    color: rgb(234, 67, 104);
+}
